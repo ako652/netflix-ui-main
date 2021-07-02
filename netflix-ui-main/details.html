@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" >
+                <img src="./assets/netflix_logo.png" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tv Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recently Added</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My List</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search icon" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KIDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-bell-fill icon" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="./assets/avatar.png" id="avatar">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./assets/avatar.png" id="avatar-small">
+                                            Ubeyt
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="">Manage Profiles</a></li>
+                                <li><a class="dropdown-item" href="">Account</a></li>
+                                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Signout Netflix</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="genre-details">
+            <div class="d-flex">
+                <h3 class="text-light">TV Shows</h3>
+                <button class="btn btn-outline-light dropdown-toggle genre-button">Genres</button>
+            </div>
+            <div>
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-text-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-grid" viewBox="0 0 16 16">
+                            <path
+                                d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="movie-gallery m-2">
+            <h5 class="text-light mt-2 mb-2">Trending Now</h5>
+            <div id="trending-now" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="movie-row">
+                            <div class="row">
+                                <div id="currentEvents"class="col-md-2">
+                                    <img class="movie-cover" src="./assets/media/media0.jpg">
+                                    <div class="card-body text-secondary">
+                                        <h5 id= "category"class="card-title">Card title</h5>
+                                        <p id="description" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        
+                                        <p id="name"></p>
+                                        <button type="button" class="btn btn-success mt-3" onclick="handleEdit()">EDIT EVENT</button>
+                                      </div>
+                                </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script>
+        const url = "https://striveschool-api.herokuapp.com/api/product/"
+        const eventId = new URLSearchParams(window.location.search).get("id")
+
+
+        window.onload = async () => {
+            try {
+                const response = await fetch(url + eventId, {
+                headers: {
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGRjNjA5MmIzNTgxNzAwMTVjMjI3MGIiLCJpYXQiOjE2MjUwNTUzNzksImV4cCI6MTYyNjI2NDk3OX0.GU2lIsiqgCn32sgv0p7ojOBhxmXqY4w22Bx2R_WPZQA"
+}
+                })
+
+                if (response.ok) {
+                    const eventData = await response.json()
+
+                    const eventContainer = document.getElementById("currentEvents")
+                    eventContainer.innerHTML = `<div class="col-md-2">
+            <img class="movie-cover" src=${event.imageUrl}">
+            <div class="card-body text-secondary">
+            <h5 id= "category"class="card-title">${event.category}</h5>
+            <p id="description" class="card-text">${event.description}</p>
+            <p id="name">${event.name}</p>
+            <a href="./detail.html?id=${event._id}">VIEW DETAILS</a>
+                
+              </div>
+        </div>`
+                 
+                
+                }
+            } catch (err) {
+                console.log(err)
+            }
+
+            console.log("i'm the last thing")
+        }
+
+        const handleEdit = () => {
+            window.location.assign("./index2.html?id=" + eventId)
+        }
+
+
+
+
+
+    </script>
+  </body>
+</html>
